@@ -1,0 +1,59 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+    margin:0;
+    padding:0;
+    /* background: url('C:\Users\harshitbhardwaj\Desktop\Angular_Assi\result_management_app\result-management-app\src\public\wall_jfif.jfif'); */
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background-size: 400% 400%;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    animation: gradient 15s ease-in-out infinite alternate;
+}
+
+@keyframes gradient {
+    /* 0% {background-position: 0%}
+    100% {background-position: 100%} */
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.td-none-home {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.5em;
+}
+.td-none-home:hover{
+    
+    color:white;
+}
+
+.massive-margin-top
+{
+    margin-top: 6em;
+}
+.bg-back{
+    border-radius: 0.5em;
+}
+.bg-back:hover{
+background-color: rgb(237, 237, 237);
+}
+
+.errorBorder{
+    border: 3px solid red;
+}
+.successBorder{
+    border: 3px solid rgb(0, 196, 0);
+}
+
+.invalidButton{
+    background-color: grey;
+    
+}
